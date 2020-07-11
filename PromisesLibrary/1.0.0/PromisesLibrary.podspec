@@ -17,10 +17,7 @@ Pod::Spec.new do |s|
   s.frameworks = "Foundation", "UIKit"
   s.swift_version = "5.0"
   s.source_files = 'PromisesLibrary/Classes/**/*.{h,m,swift}'
-  s.resource_bundles = {
-    'PromisesLibrary' => ['PromisesLibrary/Assets/**/*']
-  }
-  s.resources = "PromisesLibrary/Assets/*.{xcassets,lproj,xib}"
+  s.resources = "PromisesLibrary/Assets/**/*.{xcassets,lproj,xib}"
   s.dependency "DigiMeToolbox", '~> 1.0.1'
   s.dependency "SnapKit"
 end
